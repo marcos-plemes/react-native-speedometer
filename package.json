@@ -1,6 +1,6 @@
 {
   "name": "react-native-speedometer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Customizable Speedometer Implementation in React Native",
   "main": "dist/react-native-speedometer.cjs.js",
   "jsnext:main": "dist/react-native-speedometer.esm.js",
@@ -61,8 +61,8 @@
     "jest-extended": "^0.11.0",
     "lint-staged": "^8.1.0",
     "npm-run-all": "^4.1.5",
-    "react": "^16.7.0",
-    "react-native": "^0.61.5",
+    "react": "^18.2.0",
+    "react-native": "^0.72.3",
     "react-test-renderer": "^16.7.0",
     "rollup": "^1.1.2",
     "rollup-plugin-babel": "^4.3.2",
