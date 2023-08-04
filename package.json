@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pritishvaidya/react-native-speedometer.git"
+    "url": "git+https://github.com/luizjr/react-native-speedometer.git"
   },
   "files": [
     "dist",
@@ -30,16 +30,23 @@
     "speedometer",
     "speedometer-progress"
   ],
-  "author": {
-    "name": "Pritish Vaidya",
-    "email": "pritishvaidya94@gmail.com",
-    "url": "pritishvaidya.com"
-  },
+  "authors": [
+    {
+      "name": "Pritish Vaidya",
+      "email": "pritishvaidya94@gmail.com",
+      "url": "pritishvaidya.com"
+    },
+    {
+      "name": "Luiz Silva",
+      "email": "lj@luizjr.dev",
+      "url": "luizjr.dev"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pritishvaidya/react-native-speedometer/issues"
+    "url": "https://github.com/luizjr/react-native-speedometer/issues"
   },
-  "homepage": "https://github.com/pritishvaidya/react-native-speedometer#readme",
+  "homepage": "https://github.com/luizjr/react-native-speedometer#readme",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.3.0",

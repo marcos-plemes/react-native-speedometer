@@ -1,10 +1,9 @@
-# react-native-speedometer [![Build Status](https://travis-ci.com/pritishvaidya/react-native-speedometer.svg?branch=master)](https://travis-ci.com/pritishvaidya/react-native-speedometer) [![CodeFactor](https://www.codefactor.io/repository/github/pritishvaidya/react-native-speedometer/badge)](https://www.codefactor.io/repository/github/pritishvaidya/react-native-speedometer) [![Maintainability](https://api.codeclimate.com/v1/badges/0938f80fff81ed82c9de/maintainability)](https://codeclimate.com/github/pritishvaidya/react-native-speedometer/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/0938f80fff81ed82c9de/test_coverage)](https://codeclimate.com/github/pritishvaidya/react-native-speedometer/test_coverage) [![npm version](https://badge.fury.io/js/react-native-speedometer.svg)](https://badge.fury.io/js/react-native-speedometer) [![npm downloads](https://img.shields.io/npm/dt/react-native-speedometer.svg)](https://npm-stat.com/charts.html?package=react-native-speedometer&from=2018-02-17&to=2018-12-28) <a href="https://github.com/pritishvaidya/react-native-speedometer/blob/master/README.md"><img src="https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg" alt="module formats: umd, cjs, esm"></a>
-
+# react-native-speedometer [![Build Status](https://travis-ci.com/luizjr/react-native-speedometer.svg?branch=master)](https://travis-ci.com/luizjr/react-native-speedometer) [![CodeFactor](https://www.codefactor.io/repository/github/luizjr/react-native-speedometer/badge)](https://www.codefactor.io/repository/github/luizjr/react-native-speedometer) [![Maintainability](https://api.codeclimate.com/v1/badges/0938f80fff81ed82c9de/maintainability)](https://codeclimate.com/github/luizjr/react-native-speedometer/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/0938f80fff81ed82c9de/test_coverage)](https://codeclimate.com/github/luizjr/react-native-speedometer/test_coverage) [![npm version](https://badge.fury.io/js/react-native-speedometer.svg)](https://badge.fury.io/js/react-native-speedometer) [![npm downloads](https://img.shields.io/npm/dt/react-native-speedometer.svg)](https://npm-stat.com/charts.html?package=react-native-speedometer&from=2018-02-17&to=2018-12-28) <a href="https://github.com/luizjr/react-native-speedometer/blob/master/README.md"><img src="https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg" alt="module formats: umd, cjs, esm"></a>
 
 A Customizable Speedometer Implementation in React Native
 
-
 ## Show Cases
+
 ![Alt Text](https://media.giphy.com/media/7SEJiywhkmM9veTlvi/giphy.gif)
 
 ## Getting Started
@@ -24,6 +23,7 @@ $ npm i react-native-speedometer --save
 ```
 
 ### Basic Usage
+
 ```
 import React, { Component } from 'react';
 import {
@@ -67,28 +67,30 @@ const styles = StyleSheet.create({
 ```
 
 ### Properties
-| Prop  | Default  | Type | Description |
-| :------------ |---------------:| :---------------| :-----|
-| value | required | number | Current Value |
-| size | [Default Labels](#defaults) | number | Size |
-| defaultValue | 50 | number | Default Value |
-| minValue | 0 | number | Minimum Limit |
-| maxValue | 100 | number | Maximum Value |
-| allowedDecimals | 0 | number | Allowed Decimal Places |
-| easeDuration | 500| number | Ease Duration for the Needle animation |
-| labels | [Default Labels](#defaults) | array | Labels List |
-| needleImage | [Default Needle Image](#defaults) | string | Absolute path to the Needle Image |
-| wrapperStyle | {} | object | Wrapper Style |
-| outerCircleStyle   | {} | object | Outer Circle Style |
-| halfCircleStyle   | {} | object | Half Circle Style |
-| imageWrapperStyle | {} | object | Needle Image Wrapper Style |
-| imageStyle | {} | object | Needle Image Style |
-| innerCircleStyle | {} | object | Inner Circle Style |
-| labelWrapperStyle | {} | object | Label Wrapper Style |
-| labelStyle | {} | object | Label Style |
-| labelNoteStyle | {} | object | Label Note Style |
+
+| Prop              |                           Default | Type   | Description                            |
+| :---------------- | --------------------------------: | :----- | :------------------------------------- |
+| value             |                          required | number | Current Value                          |
+| size              |       [Default Labels](#defaults) | number | Size                                   |
+| defaultValue      |                                50 | number | Default Value                          |
+| minValue          |                                 0 | number | Minimum Limit                          |
+| maxValue          |                               100 | number | Maximum Value                          |
+| allowedDecimals   |                                 0 | number | Allowed Decimal Places                 |
+| easeDuration      |                               500 | number | Ease Duration for the Needle animation |
+| labels            |       [Default Labels](#defaults) | array  | Labels List                            |
+| needleImage       | [Default Needle Image](#defaults) | string | Absolute path to the Needle Image      |
+| wrapperStyle      |                                {} | object | Wrapper Style                          |
+| outerCircleStyle  |                                {} | object | Outer Circle Style                     |
+| halfCircleStyle   |                                {} | object | Half Circle Style                      |
+| imageWrapperStyle |                                {} | object | Needle Image Wrapper Style             |
+| imageStyle        |                                {} | object | Needle Image Style                     |
+| innerCircleStyle  |                                {} | object | Inner Circle Style                     |
+| labelWrapperStyle |                                {} | object | Label Wrapper Style                    |
+| labelStyle        |                                {} | object | Label Style                            |
+| labelNoteStyle    |                                {} | object | Label Note Style                       |
 
 ### Defaults
+
 ```
   size: deviceWidth - 20,
   defaultValue: 50,
@@ -142,11 +144,13 @@ const styles = StyleSheet.create({
 ## Contribution
 
 - [@pritishvaidya](mailto:pritishvaidya94@gmail.com) The main author.
+- [@luizjr](mailto:lj@luizjr.dev) The main author.
 
 ## TODOS
+
 - Provision to remove `labels` and `labelIndex`.
 - Unequal Split of chart (Need Help)
 
 ## Questions
 
-Feel free to [contact me](mailto:pritishvaidya94@gmail.co) or [create an issue](https://github.com/pritishvaidya/react-native-speedometer/issues/new)
+Feel free to [contact me](mailto:lj@luizjr.dev) or [create an issue](https://github.com/luizjr/react-native-speedometer/issues/new)
