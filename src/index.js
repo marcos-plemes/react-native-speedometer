@@ -102,7 +102,7 @@ class Speedometer extends Component {
           })}
           <Animated.View style={[style.imageWrapper,
             {
-              top: -(currentSize / 15),
+              top: -(currentSize),
               transform: [{ rotate }],
             },
             imageWrapperStyle]}
