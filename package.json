@@ -1,6 +1,6 @@
 {
-  "name": "react-native-speedometer",
-  "version": "1.0.6",
+  "name": "react-native-speedometer-new-2",
+  "version": "1.0.8",
   "description": "A Customizable Speedometer Implementation in React Native",
   "main": "dist/react-native-speedometer.cjs.js",
   "jsnext:main": "dist/react-native-speedometer.esm.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luizjr/react-native-speedometer.git"
+    "url": "git+https://github.com/marcos-plemes/react-native-speedometer.git"
   },
   "files": [
     "dist",
@@ -40,13 +40,17 @@
       "name": "Luiz Silva",
       "email": "lj@luizjr.dev",
       "url": "luizjr.dev"
+    },
+    {
+      "name": "Marcos Lemes",
+      "email": "mvplemes@gmail.com"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luizjr/react-native-speedometer/issues"
+    "url": "https://github.com/marcos-plemes/react-native-speedometer/issues"
   },
-  "homepage": "https://github.com/luizjr/react-native-speedometer#readme",
+  "homepage": "https://github.com/marcos-plemes/react-native-speedometer#readme",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.3.0",
@@ -69,7 +73,7 @@
     "lint-staged": "^8.1.0",
     "npm-run-all": "^4.1.5",
     "react": "^18.2.0",
-    "react-native": "^0.72.3",
+    "react-native": "^0.73.4",
     "rollup": "^1.1.2",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.0",
@@ -81,7 +85,7 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-native": "^0.72.3"
+    "react-native": "^0.73.4"
   },
   "dependencies": {
     "prop-types": "^15.6.0"
